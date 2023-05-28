@@ -309,6 +309,7 @@ body {
   height: 88px;
 }
 .customers-item {
+  width: calc((100% - 120px) / 6);
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
@@ -370,11 +371,14 @@ body {
 .footer-block {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+.footer-content {
+  margin-right: 120px;
 }
 .footer-social {
 }
 .footer-social-subtitle {
+  font-weight: 500;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -400,8 +404,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+.footer-social-link:hover {
+  background-color: #31d0aa;
+}
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
 .footer-social-svg {
-  display: block;
+  fill: var(--footer-text);
 }
 
 .services {
