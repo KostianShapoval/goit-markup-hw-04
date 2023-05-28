@@ -305,7 +305,6 @@ body {
 .customers-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customers-item {
@@ -451,6 +450,14 @@ body {
   color: var(--logo-main-color);
   background-color: #404bbf;
   border: 1px solid transparent;
+}
+.row-list-btn:first-child:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.row-list-btn:first-child:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .services-list {
   display: flex;
