@@ -110,11 +110,6 @@ body {
   color: #404bbf;
 }
 .start {
-}
-.about-svg-icon {
-  margin-bottom: 8px;
-}
-.start-block {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -125,6 +120,11 @@ body {
   background-size: cover;
   max-width: 1440px;
   padding: 188px 0;
+}
+.about-svg-icon {
+  margin-bottom: 8px;
+}
+.start-block {
 }
 .start-title {
   font-size: 56px;
